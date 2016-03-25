@@ -1,7 +1,11 @@
 body>div{
 	border: 1px solid #999;
 	background-color: #eee;
-	overflow: hidden;/*偷懒法。。。*/
+}
+body>div:after{
+	content: "";
+	display: block;
+	clear: both;
 }
 .team-name{
 	float: left;
