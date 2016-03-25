@@ -6,8 +6,9 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -200px;
-	margin-top: -100px;/*使用负外边距，位移自身的一半，使其居中*/
+
+	transform:translate(-50%,-50%);
+
 	width: 400px;
 	height: 200px;
 	background-color: #ccc;
