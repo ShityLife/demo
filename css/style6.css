@@ -1,0 +1,28 @@
+html,body,div,p,span,h1,h2,h3,h4,h5,h6,header,footer,figure,img,caption,figcaption,ul,ol,li{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 980px;
+	height: 1386px;
+}
+header{
+	width: 892px;
+	border-bottom: 2px solid #938e8c;
+}
+header span{
+	box-sizing:border-box;
+	display: inline-block;
+	width: 110px;
+	height: 61px;
+	font: 12px 黑体;
+	color: #fff;
+	background-color: #d45d5c;
+	padding: 46px 27px 6px 7px;
+}
+header time{
+	margin: 46px 1px 6px 0;
+	font: 12px 黑体;
+	color: #d45d5c;
+	float: right;
+}
