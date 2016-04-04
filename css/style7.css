@@ -1,0 +1,98 @@
+html,body,div,header,footer,nav,ul,ol,dl,li,p,h1,h2,h3,h4,h5,h6,p,img,span,i,strong,em,i
+button,input{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body{
+	width: 1280px;
+	margin: 0 auto;
+}
+.clear-fix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	width: 1280px;
+	height: 56px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	display: inline-block;
+	font: 21px "黑体";
+	color: #393a3a;
+	background: url(../img/task7_1.png) left no-repeat;
+	margin-left: 59px;
+	padding-top: 5px;
+	padding-left: 42px;
+	height: 56px;
+	line-height: 56px;
+}
+header ul{
+	display: inline-block;
+	float: left;
+	margin-left: 518px;
+}
+header ul li{
+	display: inline-block;
+	float: left;
+	font: 14px "黑体";
+	color: #393a3a;
+	margin-left: 20px;
+	height: 56px;
+	width: 65px;
+	text-align: center;
+	line-height: 56px;
+}
+header ul li:first-child{
+	border-bottom: 5px solid #e74f4d;
+}
+header ul li:hover{
+	border-bottom: 5px solid #e74f4d;
+}
+.login{
+	display: inline-block;
+	padding-left: 19px;
+	margin-left: 31px;
+	height: 56px;
+	line-height: 56px;
+	font: 14px "微软雅黑";
+	color: #e74f4d;
+	background: url(../img/task7_2.png) no-repeat;
+}
+.top{
+	position: relative;
+	width: 1280px;
+	height: 690px;
+	background: url(../img/task7_4.png);
+	z-index: -1;
+}
+.top>p:first-child{
+	display: inline-block;
+	margin-left: 116px;
+	margin-top: 233px;
+	padding: 0;
+	font: 60px/47px "微软雅黑";
+	color: #fff;
+}
+.top>p:nth-child(2){
+	margin-left: 116px;
+	margin-top: 31px;
+	width: 294px;
+	font: 21px "微软雅黑";
+	color: #fff;
+}
+.top>span{
+	margin-left: 116px;
+	margin-top: 68px;
+	display: inline-block;
+	width: 330px;
+	height: 63px;
+	font: 30px/63px "微软雅黑";
+	background-color: #e7504d;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
